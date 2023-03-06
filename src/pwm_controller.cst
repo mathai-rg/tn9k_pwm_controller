@@ -1,0 +1,16 @@
+//for Tang Nano 9K board with GOWIN GW1NR-LV9QN88PC6/I5
+
+//SYSTEM CLOCK INPUT
+//uses on board 27 MHz Oscillator
+IO_LOC "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+//SYSTEM_RESET INPUT
+//uses on board switch S2
+IO_LOC "rstn" 3;
+IO_PORT "rstn" PULL_MODE=UP;
+
+//pwm_out
+//uses onboard led connected to pin 10
+IO_LOC "pwm_out" 10;
+IO_PORT "pwm_out" PULL_MODE=UP;
