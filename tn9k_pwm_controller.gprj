@@ -5,6 +5,7 @@
     <Version>5</Version>
     <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
     <FileList>
+        <File path="src/pwm_controller_tb.v" type="file.verilog" enable="0"/>
         <File path="src/pwm_controller_top.v" type="file.verilog" enable="1"/>
         <File path="src/pwm_controller.cst" type="file.cst" enable="1"/>
     </FileList>
